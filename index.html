@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francesco Del Sesto, Verifiable AI Systems and Research</title>
+    <meta
+      name="description"
+      content="Personal archive of Francesco Del Sesto: verifiable AI software, empirical research, and data systems built in Milan."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/page.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-nav">
+        <a class="brand" href="#top" aria-label="Francesco Del Sesto home">Francesco Del Sesto</a>
+        <nav aria-label="Primary">
+          <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#systems">Systems</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="nav-cmd" type="button" data-open-cmd aria-label="Open quick index">
+          <span>Index</span>
+          <kbd>⌘&nbsp;K</kbd>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero" aria-label="Introduction and 3D work index">
+        <div class="container stage-grid">
+          <div class="stage-copy">
+            <h1>Verifiable AI systems, built in Milan.</h1>
+            <p class="lead">
+              Bocconi MSc, ex-Berkeley SkyDeck VC, building verifiable AI systems.
+            </p>
+            <div class="stage-actions">
+              <a class="btn btn--primary" href="#contact">Write to me</a>
+              <a
+                class="btn"
+                href="/papers/del-sesto-2025-public-development-banks-thesis.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read the thesis
+              </a>
+            </div>
+          </div>
+
+          <figure class="spatial-stage" data-kind="product">
+            <div
+              class="spatial-viewport"
+              data-spatial-viewport
+              tabindex="0"
+              role="region"
+              aria-label="Infinite 3D archive of selected builds and papers. Use arrow keys to rotate and Enter to open."
+            >
+              <div class="spatial-track">
+                <article class="plate" data-plate="diurna" data-active="true">
+                  <div class="plate-head">
+                    <span class="plate-title">Diurna</span>
+                    <span class="plate-kind">macOS/iOS meeting record, TEF Ignition</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">15.0%</span>
+                    <span class="plate-unit">clean WER</span>
+                  </div>
+                  <span class="plate-desc">
+                    Local Neural Engine ASR, timestamped citations, and MCP server.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="cv-radar" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">CV-Radar</span>
+                    <span class="plate-kind">Deterministic job gate, CV compiler</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">17,217</span>
+                    <span class="plate-unit">offers gated</span>
+                  </div>
+                  <span class="plate-desc">
+                    Blocks LaTeX compilation inside Docker if any claim is absent from verified profile facts.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="bandifacili" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">BandiFacili</span>
+                    <span class="plate-kind">Italian/EU public grants workspace</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">2,160</span>
+                    <span class="plate-unit">grant sheets</span>
+                  </div>
+                  <span class="plate-desc">
+                    Daily refresh from five official feeds with seven bots audited across 19 release criteria.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="excel-ai" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">Excel AI</span>
+                    <span class="plate-kind">Office.js modelling add-in, Python bridge</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">DCF</span>
+                    <span class="plate-unit">confirm first</span>
+                  </div>
+                  <span class="plate-desc">
+                    Plans valuation models from natural language and asks confirmation before editing cells.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="thesis" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">Public Development Banks</span>
+                    <span class="plate-kind">Bocconi BSc thesis, Prof. Marta Zava</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">21.78M</span>
+                    <span class="plate-unit">firm-year obs</span>
+                  </div>
+                  <span class="plate-desc">
+                    Vector matching across Orbis and Crunchbase with two-way fixed-effects estimation.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="deposit-paper" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">Deposit Competition</span>
+                    <span class="plate-kind">Working paper on Italy’s BTP Valore</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">97.7B&nbsp;€</span>
+                    <span class="plate-unit">retail issues</span>
+                  </div>
+                  <span class="plate-desc">
+                    Reproducible ECB, MEF, Wayback, and AGCM evidence on deposit pass-through asymmetry.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="cartpole" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">CartPole to the Market</span>
+                    <span class="plate-kind">Bocconi BSML RL evaluation protocol</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">2×2×2</span>
+                    <span class="plate-unit">cheat ablation</span>
+                  </div>
+                  <span class="plate-desc">
+                    Decomposes fake backtest alpha across split leaks, zero costs, and lookahead bias.
+                  </span>
+                </article>
+
+                <article class="plate" data-plate="ctf-agent" data-active="false">
+                  <div class="plate-head">
+                    <span class="plate-title">CTF Firecrawl Agent</span>
+                    <span class="plate-kind">Deadline-scheduled TypeScript solver</span>
+                  </div>
+                  <div class="plate-figure">
+                    <span class="plate-num">4,713</span>
+                    <span class="plate-unit">lines of TS</span>
+                  </div>
+                  <span class="plate-desc">
+                    Dual-model hedging, six-second manager replanning, and prompt-injection sanitization.
+                  </span>
+                </article>
+              </div>
+            </div>
+
+            <div class="spatial-bar">
+              <span class="spatial-status" data-spatial-status aria-live="polite">01 of 08: Diurna</span>
+              <div class="spatial-controls">
+                <button class="btn btn--compact" type="button" data-spatial-prev>Prev</button>
+                <button class="btn btn--compact" type="button" data-spatial-next>Next</button>
+                <button class="btn btn--compact" type="button" data-spatial-pause aria-pressed="false">Pause</button>
+                <button class="btn btn--compact" type="button" data-spatial-open data-open-dossier="diurna">
+                  Dossier
+                </button>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section id="work" class="section--wide-gap">
+        <div class="container split-case">
+          <div class="case-body">
+            <h2>Diurna, built and audited twice</h2>
+            <p>
+              Bot-less macOS and iOS meeting record with local Apple Neural Engine ASR and timestamped citations. Built
+              on a 2,000&nbsp;€ TEF Ignition grant, audited across 52 runs; commercial demand stayed unproven.
+            </p>
+            <dl class="spec-list">
+              <div class="spec-row">
+                <dt>Monorepo size</dt>
+                <dd>242,900 LOC</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Automated test suite</dt>
+                <dd>2,050 tests</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Post-call latency cut</dt>
+                <dd>1,829&nbsp;s to 100&nbsp;s</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Release status</dt>
+                <dd>Notarized Mac v0.7.16</dd>
+              </div>
+            </dl>
+            <div class="tab-actions">
+              <button class="btn" type="button" data-open-dossier="diurna">ASR audit dossier</button>
+              <a class="btn btn--compact" href="https://getdiurna.com" target="_blank" rel="noopener noreferrer">
+                getdiurna.com
+              </a>
+            </div>
+          </div>
+
+          <figure class="media-frame" data-loop>
+            <div class="media-box" data-kind="product">
+              <video
+                src="/media/diurna-demo.mp4"
+                poster="/media/diurna-poster.jpg"
+                width="1280"
+                height="800"
+                muted
+                loop
+                playsinline
+                preload="metadata"
+              ></video>
+            </div>
+            <div class="media-bar">
+              <figcaption class="caption">
+                Diurna v0.7.16 on macOS: Core Audio capture, local Parakeet ASR, and verified citations.
+              </figcaption>
+              <button class="btn btn--compact" type="button" data-loop-toggle aria-pressed="false">Pause clip</button>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section id="systems" class="section--tight">
+        <div class="container">
+          <div class="section-head">
+            <h2>Three systems that cannot invent</h2>
+            <p class="lead">
+              Deterministic checks before inference; every output traces to a source.
+            </p>
+          </div>
+
+          <div class="sheet-panel">
+            <div class="tab-strip" role="tablist" aria-label="Selected software systems">
+              <button class="tab-btn" role="tab" id="tab-cv" aria-controls="panel-cv" aria-selected="true" type="button">
+                CV-Radar
+              </button>
+              <button
+                class="tab-btn"
+                role="tab"
+                id="tab-bandi"
+                aria-controls="panel-bandi"
+                aria-selected="false"
+                tabindex="-1"
+                type="button"
+              >
+                BandiFacili
+              </button>
+              <button
+                class="tab-btn"
+                role="tab"
+                id="tab-excel"
+                aria-controls="panel-excel"
+                aria-selected="false"
+                tabindex="-1"
+                type="button"
+              >
+                Excel AI
+              </button>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="panel-cv" aria-labelledby="tab-cv">
+              <div class="tab-copy">
+                <h3>CV-Radar</h3>
+                <p>
+                  Zero-token gate over 65 ATS adapters. A Docker validator blocks LaTeX output if any claim lacks a
+                  source fact.
+                </p>
+                <dl class="spec-list">
+                  <div class="spec-row">
+                    <dt>Local verdicts</dt>
+                    <dd>17,217 offers</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Test suite</dt>
+                    <dd>1,779 tests</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>State</dt>
+                    <dd>Local, pre-public</dd>
+                  </div>
+                </dl>
+                <div class="tab-actions">
+                  <button class="btn btn--compact" type="button" data-open-dossier="cv-radar">Full dossier</button>
+                </div>
+              </div>
+              <figure class="media-frame" data-stageshow="cv-radar" data-beat="3">
+                <div class="ss-stage ss-stage--cv" data-kind="product" role="img" aria-label="CV-Radar pipeline: zero-token ATS gate and Docker LaTeX claim verifier">
+                  <div class="ss-win ss-win--corner">
+                    <div class="ss-chrome">
+                      <span class="ss-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                      <span class="ss-url">cv-radar / pipeline</span>
+                    </div>
+                    <div class="ss-body">
+                      <div class="ss-row ss-row--head">
+                        <span>Listing</span>
+                        <span>Gate</span>
+                      </div>
+                      <div class="ss-row ss-row--focus" data-ss-step="1">
+                        <div class="ss-cell-main">
+                          <span class="ss-row-title">Applied AI Engineer, Milan</span>
+                          <span class="ss-row-sub">Greenhouse, 0 tokens</span>
+                        </div>
+                        <span class="ss-badge ss-badge--ok">Pass</span>
+                      </div>
+                      <div class="ss-row" data-ss-step="2">
+                        <div class="ss-cell-main">
+                          <span class="ss-row-title">Claim check: profile_facts.json</span>
+                          <span class="ss-row-sub">14 assertions matched</span>
+                        </div>
+                        <span class="ss-badge ss-badge--ok">Verified</span>
+                      </div>
+                      <div class="ss-row ss-row--filler" aria-hidden="true">
+                        <div class="ss-bars">
+                          <span class="ss-bar" style="width: 68%"></span>
+                          <span class="ss-bar ss-bar--sub" style="width: 44%"></span>
+                        </div>
+                        <span class="ss-bar ss-bar--pill"></span>
+                      </div>
+                      <div class="ss-row ss-row--filler" aria-hidden="true">
+                        <div class="ss-bars">
+                          <span class="ss-bar" style="width: 54%"></span>
+                          <span class="ss-bar ss-bar--sub" style="width: 38%"></span>
+                        </div>
+                        <span class="ss-bar ss-bar--pill"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="ss-sat" data-ss-step="3">
+                    <div class="ss-sat-top">
+                      <span class="ss-sat-label">Docker LaTeX</span>
+                      <span class="ss-badge ss-badge--ok" data-ss-cv-status>Compiled</span>
+                    </div>
+                    <div class="ss-sat-file">cv_francesco.pdf</div>
+                    <div class="ss-sat-meta" data-ss-cv-meta>0 invented claims, network off</div>
+                  </div>
+                </div>
+                <div class="media-bar">
+                  <figcaption class="caption">
+                    148,500 lines of Python, Chrome MV3 autofill, and network-isolated LaTeX gate.
+                  </figcaption>
+                  <button class="btn btn--compact" type="button" data-ss-replay="cv-radar">Replay</button>
+                </div>
+              </figure>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="panel-bandi" aria-labelledby="tab-bandi" hidden>
+              <div class="tab-copy">
+                <h3>BandiFacili</h3>
+                <p>
+                  Daily-refreshed Italian and EU public grants workspace with a source-citing assistant and seven drafting
+                  bots audited across 19 release criteria.
+                </p>
+                <dl class="spec-list">
+                  <div class="spec-row">
+                    <dt>Grant sheets</dt>
+                    <dd>2,160 sheets</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Open calls</dt>
+                    <dd>851 open</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>State</dt>
+                    <dd>Local, pre-launch</dd>
+                  </div>
+                </dl>
+                <div class="tab-actions">
+                  <button class="btn btn--compact" type="button" data-open-dossier="bandifacili">Full dossier</button>
+                </div>
+              </div>
+              <figure class="media-frame">
+                <div class="media-box" data-kind="product">
+                  <img
+                    src="/media/bandifacili-home.png"
+                    width="1800"
+                    height="1688"
+                    loading="lazy"
+                    alt="BandiFacili web interface showing official Italian grant search and open funding calls"
+                  />
+                </div>
+                <figcaption class="caption">
+                  Next.js 16 interface built on 18 months of MIMIT and EU feed iterations.
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="panel-excel" aria-labelledby="tab-excel" hidden>
+              <div class="tab-copy">
+                <h3>Excel AI</h3>
+                <p>
+                  Office.js add-in backed by Node.js and a Python OpenBB bridge. Plans DCF, LBO, or comps edits and asks
+                  confirmation before mutating cells.
+                </p>
+                <div class="tab-actions">
+                  <button class="btn btn--compact" type="button" data-open-dossier="excel-ai">Full dossier</button>
+                  <a
+                    class="btn btn--compact"
+                    href="https://github.com/francescods04/excel-ai-"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+              <figure class="media-frame" data-stageshow="excel-ai" data-beat="2">
+                <div class="ss-stage ss-stage--excel" data-kind="product" role="img" aria-label="Excel AI Office.js task pane requesting confirmation before writing DCF formulas">
+                  <div class="ss-win ss-win--pinned">
+                    <div class="ss-chrome">
+                      <span class="ss-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                      <span class="ss-url">Valuation_DCF.xlsx</span>
+                    </div>
+                    <div class="ss-excel-split">
+                      <div class="ss-sheet">
+                        <div class="ss-grid-row ss-grid-row--head">
+                          <span>Metric</span>
+                          <span>2026E</span>
+                          <span>2027E</span>
+                        </div>
+                        <div class="ss-grid-row">
+                          <span>Revenue</span>
+                          <span class="ss-num">48.2</span>
+                          <span class="ss-num">54.9</span>
+                        </div>
+                        <div class="ss-grid-row ss-grid-row--target">
+                          <span>WACC</span>
+                          <span class="ss-num" data-ss-cell="wacc">8.4%</span>
+                          <span class="ss-num" data-ss-cell="wacc2">8.4%</span>
+                        </div>
+                        <div class="ss-grid-row ss-grid-row--target">
+                          <span>EV (NPV)</span>
+                          <span class="ss-num" data-ss-cell="ev">142.6</span>
+                          <span class="ss-num" data-ss-cell="ev2">161.4</span>
+                        </div>
+                        <div class="ss-grid-row ss-grid-row--filler" aria-hidden="true">
+                          <span class="ss-bar" style="width: 62%"></span>
+                          <span class="ss-bar" style="width: 48%"></span>
+                          <span class="ss-bar" style="width: 52%"></span>
+                        </div>
+                        <div class="ss-grid-row ss-grid-row--filler" aria-hidden="true">
+                          <span class="ss-bar" style="width: 50%"></span>
+                          <span class="ss-bar" style="width: 44%"></span>
+                          <span class="ss-bar" style="width: 46%"></span>
+                        </div>
+                      </div>
+
+                      <div class="ss-pane">
+                        <div class="ss-pane-title">Office.js Add-in</div>
+                        <div class="ss-diff">
+                          <span class="ss-diff-label">Proposed write (B3:C4)</span>
+                          <code class="ss-code">=NPV(C3, B4:F4)</code>
+                        </div>
+                        <div class="ss-pane-foot">
+                          <span class="ss-badge ss-badge--ok" data-ss-excel-state>Applied, 4 cells</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-bar">
+                  <figcaption class="caption">
+                    Office.js Task Pane plans diffs via Node.js and OpenBB, writing only on confirmation.
+                  </figcaption>
+                  <button class="btn btn--compact" type="button" data-ss-replay="excel-ai">Replay</button>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section--wide-gap">
+        <div class="container">
+          <div class="section-head">
+            <h2>Research and code</h2>
+            <p class="lead">
+              Papers, drafts, agents, and browser tools.
+            </p>
+          </div>
+
+          <div class="index-wrap">
+            <table class="index-table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Scope</th>
+                  <th class="num">Scale</th>
+                  <th class="num">Files</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="index-title">Public Development Banks as Equity Investors</td>
+                  <td>BSc thesis, Orbis/Crunchbase TWFE</td>
+                  <td class="num">21,777,875 obs</td>
+                  <td>
+                    <div class="index-actions">
+                      <a
+                        href="/papers/del-sesto-2025-public-development-banks-thesis.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        PDF
+                      </a>
+                      <button class="text-action" type="button" data-open-dossier="thesis">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">Deposit Competition Beyond Rates</td>
+                  <td>Working paper, ECB/MEF/AGCM</td>
+                  <td class="num">97.7B&nbsp;€</td>
+                  <td>
+                    <div class="index-actions">
+                      <a
+                        href="/papers/del-sesto-2026-deposit-competition-proposal.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Proposal
+                      </a>
+                      <button class="text-action" type="button" data-open-dossier="deposit-paper">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">From CartPole to the Market</td>
+                  <td>BSML RL eval, Deflated Sharpe</td>
+                  <td class="num">2×2×2 ablation</td>
+                  <td>
+                    <div class="index-actions">
+                      <button class="text-action" type="button" data-open-dossier="cartpole">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">CTF Firecrawl Agent</td>
+                  <td>Hedged solver, injection guard</td>
+                  <td class="num">4,713 LOC</td>
+                  <td>
+                    <div class="index-actions">
+                      <button class="text-action" type="button" data-open-dossier="ctf-agent">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">Kaggriculture Optimizer</td>
+                  <td>Lean sim, Cournot, Rust</td>
+                  <td class="num">300 seeds</td>
+                  <td>
+                    <div class="index-actions">
+                      <button class="text-action" type="button" data-open-dossier="kaggriculture">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">Prediction Market Stack</td>
+                  <td>Rust WebSocket, ClickHouse, OFI</td>
+                  <td class="num">106.6M ticks</td>
+                  <td>
+                    <div class="index-actions">
+                      <button class="text-action" type="button" data-open-dossier="chresmos">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">Run and Prices</td>
+                  <td>Strava vs asking prices</td>
+                  <td class="num">7,874 towns</td>
+                  <td>
+                    <div class="index-actions">
+                      <a href="https://github.com/francescods04/run-and-prices" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                      </a>
+                      <button class="text-action" type="button" data-open-dossier="run-and-prices">Dossier</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="index-title">Client-side lab utilities</td>
+                  <td>Browser tools</td>
+                  <td class="num">2 live tools</td>
+                  <td>
+                    <div class="index-actions">
+                      <a href="/lab/pd-meter.html" target="_blank" rel="noopener noreferrer">PD Meter</a>
+                      <a href="/lab/lens-tints.html" target="_blank" rel="noopener noreferrer">Lens Tints</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="section--wide-gap">
+        <div class="container story-split">
+          <figure class="media-frame">
+            <div class="photo-slot" data-slot="masseria" data-alt="Lupino Gigante di Vairano harvest in wooden sieve">
+              <img
+                src="/media/masseria-lupino.jpg"
+                width="1600"
+                height="1200"
+                loading="lazy"
+                alt="Dried Lupino Gigante di Vairano legumes inside a wooden sieve at Masseria Del Sesto"
+              />
+            </div>
+            <figcaption class="caption">
+              Lupino Gigante, Masseria Del Sesto (1741).
+            </figcaption>
+          </figure>
+
+          <div class="story-copy">
+            <h2>Pietravairano, Silicon Valley, Milan</h2>
+            <p>
+              Raised on Masseria Del Sesto (17ha, no employees). After VC and PE, 44 US days led me back to engineering.
+            </p>
+
+            <ol class="timeline">
+              <li>
+                <span class="timeline-year">Summer 2026</span>
+                <div>
+                  <span class="timeline-role">Minds Without Borders</span>: 44 US days, 30 meetings.
+                  <button class="text-action" type="button" data-open-dossier="mwb">Field note</button>
+                </div>
+              </li>
+              <li>
+                <span class="timeline-year">2025/26</span>
+                <div>
+                  <span class="timeline-role">Albatross Partners</span>, PE: 200+ targets, Orbis pipeline.
+                </div>
+              </li>
+              <li>
+                <span class="timeline-year">2025/26</span>
+                <div>
+                  <span class="timeline-role">SDA Bocconi</span>, RA: FAISS matching 19k startups to 16M firms.
+                </div>
+              </li>
+              <li>
+                <span class="timeline-year">2024/25</span>
+                <div>
+                  <span class="timeline-role">Berkeley SkyDeck Europe</span>, VC: 100+ startups.
+                </div>
+              </li>
+              <li>
+                <span class="timeline-year">Since 2017</span>
+                <div>
+                  <span class="timeline-role">Masseria Del Sesto</span>: natural Lupino Gigante, Cece di Teano.
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container">
+        <div class="letter-grid">
+          <div class="letter-body">
+            <h2>Open to work that matters</h2>
+            <p>
+              Finishing my Bocconi M.Sc. while shipping local-first AI tools. Open to applied AI, research engineering,
+              or technical generalist roles.
+            </p>
+            <p class="letter-sign">Francesco Del Sesto, Milan</p>
+          </div>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:francesco@francescodelsesto.com">francesco@francescodelsesto.com</a>
+            </li>
+            <li>
+              <span class="contact-label">University</span>
+              <a href="mailto:francesco.delsesto@studbocconi.it">francesco.delsesto@studbocconi.it</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/francescods04" target="_blank" rel="noopener noreferrer">
+                github.com/francescods04
+              </a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/francescodelsesto" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/francescodelsesto
+              </a>
+            </li>
+            <li>
+              <span class="contact-label">Family farm</span>
+              <a href="https://masseriadelsesto.com" target="_blank" rel="noopener noreferrer">masseriadelsesto.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="colophon" data-credits>
+          <span>Vite, TypeScript, static HTML, zero tracking.</span>
+          <span>Dossier photo: Stanford Hoover Tower, Wikimedia Commons (CC BY-SA 3.0).</span>
+        </div>
+      </div>
+    </footer>
+
+    <dialog id="dossier-dialog" class="sheet-dialog" aria-label="Project dossier">
+      <div id="dossier-mount" class="dialog-inner"></div>
+    </dialog>
+
+    <dialog id="cmd-dialog" class="sheet-dialog" aria-label="Quick index search">
+      <div class="dialog-inner">
+        <div class="dialog-top">
+          <h2>Quick index</h2>
+          <button class="btn btn--compact" type="button" data-close-cmd>Close</button>
+        </div>
+        <label class="visually-hidden" for="cmd-input">Filter builds, papers, and tools</label>
+        <input
+          id="cmd-input"
+          class="cmd-input"
+          type="search"
+          placeholder="Search Diurna, thesis, CV-Radar, BandiFacili, PD Meter…"
+          autocomplete="off"
+        />
+        <ul id="cmd-list" class="cmd-list"></ul>
+      </div>
+    </dialog>
+
+    <script type="module" src="/src/main.ts"></script>
+    <script>
+      window.hallmarkSlots = (m) => {
+        for (const [k, v] of Object.entries(m)) {
+          const s = document.querySelector(`[data-slot="${k}"]`);
+          if (!s) continue;
+          const im = new Image();
+          im.src = typeof v === "string" ? v : v.src;
+          im.alt = (typeof v === "object" && v.alt) || s.dataset.alt || "";
+          s.querySelectorAll(":scope > img").forEach((o) => o.remove());
+          s.prepend(im);
+        }
+      };
+      document.querySelectorAll("[data-slot] img").forEach((i) => {
+        if (i.complete && !i.naturalWidth) i.remove();
+        else i.addEventListener("error", () => i.remove(), { once: true });
+      });
+    </script>
+  </body>
+</html>
